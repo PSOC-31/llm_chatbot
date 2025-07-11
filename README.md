@@ -7,6 +7,7 @@ Un assistant vocal local en français qui utilise la reconnaissance vocale, la s
 
 - **Reconnaissance vocale** : via [VOSK](https://alphacephei.com/vosk/)
 - **Génération de réponses** : via [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- **Modèle LLM** : via [Meta-Llama-3.1-8B-Instruct-Q6_K](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF)
 - **Synthèse vocale** : via [Coqui TTS](https://github.com/coqui-ai/TTS)
 - **Connaissances intégrées** : le modèle est guidé par un contexte prédéfini sur l’association Planète Sciences (fichier **contexte.txt**)
 - 100% local (aucune API externe)
