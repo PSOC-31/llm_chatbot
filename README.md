@@ -14,16 +14,16 @@ Un assistant vocal local en français qui utilise la reconnaissance vocale, la s
 
 ## Structure du projet
 
-stage_nano_llm/
-│
-├── main.py # Script principal
-├── contexte_planete.txt # Contexte injecté dans LLaMA
-├── tmp/ # Dossier temporaire pour fichiers audio
-├── vosk/ # Contient le modèle VOSK
-│ └── vosk-model-small-fr-0.22/
-├── models/ # Modèles GGUF pour llama.cpp
-│ └── Meta-Llama-3.1-8B-Instruct-Q6_K/
-└── llama.cpp/ # Dossier contenant llama.cpp compilé
+stage_nano_llm/  
+│  
+├── main.py # Script principal  
+├── contexte_planete.txt # Contexte injecté dans LLaMA  
+├── tmp/ # Dossier temporaire pour fichiers audio  
+├── vosk/ # Contient le modèle VOSK  
+│ └── vosk-model-small-fr-0.22/  
+├── models/ # Modèles GGUF pour llama.cpp  
+│ └── Meta-Llama-3.1-8B-Instruct-Q6_K/  
+└── llama.cpp/ # Dossier contenant llama.cpp compilé  
 
 
 ## Utilisation
